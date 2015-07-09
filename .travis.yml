@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 'stable'
+- "iojs"
+
+install:
+   - npm install
+
+script:
+  - ./node_modules/.bin/grunt
+
+notifications:
+  slack: tatu:ifWJMnOS9BlzH3pxQfJryUUz
+
