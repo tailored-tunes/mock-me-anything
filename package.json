@@ -2,7 +2,7 @@
   "name": "mock-me-anything",
   "version": "0.0.1",
   "description": "A 3rd party service mocker",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "eslint": "^0.24.0",
     "eslint-config": "git+https://github.com/tailored-tunes/eslint-config.git",
