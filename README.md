@@ -47,7 +47,6 @@ This will create you the specified endpoint, and will respond as told to.
 #Hoping to achieve features like:
 
 - set up mocking from the test code of the application under test
-- expectations for a given URL to be called with a given response
 - expectations for an OAuth flow to succeed or fail
 - verifying that expectations have been met
 - requesting a URL call with specific data and asserting the output to simulate incoming pushes
