@@ -1,6 +1,49 @@
 # mock-me-anything
 A 3rd party service mocker
 
+#Running:
+
+`npm start`
+
+#Current feature set:
+
+Has one and only endpoint, and the only thing it does, is to set up other, custom endpoints.
+
+# /endpoint POST
+```
+{
+  "endpoint": "",
+  "method": "",
+  "response": {
+    "code": 0,
+    "headers": {},
+    "body": ""
+  }
+}
+```
+
+## Example
+
+Say you want an endpoint that responds to a POST request with a 201, and returns some data. Then you'd pass in the
+following:
+
+```
+{
+  "endpoint": "/my/little/poster",
+  "method": "POST",
+  "response": {
+    "code": 201,
+    "headers": {
+    	"Content-Type": "application/json"
+    },
+    "body": "{\"success\": true}"
+  }
+}
+```
+
+This will create you the specified endpoint, and will respond as told to.
+
+
 #Hoping to achieve features like:
 
 - set up mocking from the test code of the application under test
