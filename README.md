@@ -55,16 +55,10 @@ This will create you the specified endpoint, and will respond as told to.
 
 #Schedule:
 
-1. Setting up the environment, tools and configurations
-  - grunt
-  - eslint
-  - mocha
-  - travis
-2. Creating a simple request-response mocker
-3. Creating verifyers
-4. Implementing multi-tenant support
-5. Creating the simple callback expectation
-6. Creating oAuth shorthands
+1. Creating verifyers
+2. Implementing multi-tenant support
+3. Creating the simple callback expectation
+4. Creating oAuth shorthands
 
 We might not get to the end of it in one session, but will continue to stream.
 
