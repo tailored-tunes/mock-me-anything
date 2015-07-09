@@ -2,6 +2,10 @@
 
 module.exports = function (grunt) {
 	var options = {
+			reportDir: 'reports',
+			configFiles: [
+				'config/**/*'
+			],
 			jsFiles: [
 				'*.js',
 				'src/**/*.js',
