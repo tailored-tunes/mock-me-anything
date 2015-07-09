@@ -27,6 +27,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('default', [
 		'pre-verify',
+		'lab',
 		'githooks'
 	]);
 };
